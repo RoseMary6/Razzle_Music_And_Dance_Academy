@@ -1,0 +1,80 @@
+body{
+  font-family: 'Merriweather', serif;
+}
+
+/* NAV BAR */
+.navbar{
+  font-family: 'Genos', sans-serif;
+  /* font-family: 'Abril Fatface', cursive; */
+}
+
+.logo{
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.ra-logo{
+  color: red;
+}
+
+.nav-link{
+  font-size: 22px;
+  margin: 10px auto;
+}
+
+.nav-link:hover{
+  background-color: #EC255A;
+  border-radius: 10px;
+  text-shadow: 0 0 0.8em #EC255A, 0 0 0.6em #FDEFEF;
+}
+
+.dropdown-item:hover{
+  background-color: #EC255A;
+  color: #ffffff;
+}
+
+.nav-item{
+  margin-right: 20px;
+}
+
+/* picture */
+.error{
+  background: url("../final-project-pics/4044.jpg");
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 90px;
+}
+
+.jumbotron{
+  background-color: transparent;
+font-family: 'Abril Fatface', cursive;
+margin-left: 50%;
+margin-top: -13%;
+}
+
+.display-4{
+  font-size: 172px;
+}
+
+.lead{
+  font-size: 30px;
+}
+
+.error-para{
+  font-family: 'Genos', sans-serif;
+  font-size: 25px;
+}
+
+.home-btn{
+  border-color: #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.home-btn:hover{
+  border-color: #EAEAEA;
+  background-color: #EAEAEA;
+  color: #000000;
+}
